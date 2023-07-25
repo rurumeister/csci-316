@@ -1,0 +1,26 @@
+// WE MIGHT BE IGNORING THESE COLUMNS:
+
+Name of column               No of Nulls
+---------------------------   --------
+desc                           734159
+mths_since_last_delinq         439812
+mths_since_last_record         724785
+mths_since_last_major_derog    642830
+annual_inc_joint               855527
+dti_joint                      855527
+verification_status_joint      855527
+open_acc_6m                    842681
+open_il_6m                     842681
+open_il_12m                    842681
+open_il_24m                    842681
+mths_since_rcnt_il             843035
+total_bal_il                   842681
+il_util                        844360
+open_rv_12m                    842681
+open_rv_24m                    842681
+max_bal_bc                     842681
+all_util                       842681
+inq_fi                         842681
+total_cu_tl                    842681
+inq_last_12m                   842681
+
