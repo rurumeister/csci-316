@@ -1,23 +1,23 @@
-next_pymnt_d                 -0.356126
-out_prncp                    -0.225960
-out_prncp_inv                -0.225959
-member_id                    -0.220181
-zid                          -0.219832
-issue_d                      -0.206522
-initial_list_status          -0.098812
-total_rec_prncp              -0.090336
-last_pymnt_amnt              -0.087217
-last_credit_pull_d           -0.062186
-total_pymnt_inv              -0.040232
-total_pymnt                  -0.039220
-annual_inc                   -0.037066
-tot_cur_bal                  -0.032310
-total_rev_hi_lim             -0.029896
-open_acc                     -0.021698
-total_acc                    -0.021087
-purpose                      -0.020992
-revol_bal                    -0.020696
-home_ownership               -0.019778
+next_pymnt_d                 -0.356126 (categorical)
+out_prncp                    -0.225960 (continuous)
+out_prncp_inv                -0.225959 (continuous)
+member_id                    -0.220181 (continuous)
+zid                          -0.219832 (continuous)
+issue_d                      -0.206522 (categorical)
+initial_list_status          -0.098812 (categorical)
+total_rec_prncp              -0.090336 (continuous)
+last_pymnt_amnt              -0.087217 (continuous)
+last_credit_pull_d           -0.062186 (categorical)
+total_pymnt_inv              -0.040232 (continuous)
+total_pymnt                  -0.039220 (continuous)
+annual_inc                   -0.037066 (continuous)
+tot_cur_bal                  -0.032310 (continuous)
+total_rev_hi_lim             -0.029896 (continous)
+open_acc                     -0.021698 (categorical)
+total_acc                    -0.021087 (categorical)
+purpose                      -0.020992 (categorical)
+revol_bal                    -0.020696 (continous)
+home_ownership               -0.019778 (categorical)
 pub_rec                      -0.019607
 emp_length                   -0.013734
 last_pymnt_d                 -0.011652
@@ -30,8 +30,8 @@ loan_amnt                    -0.004907
 acc_now_delinq               -0.003116
 tot_coll_amt                 -0.001708
 pymnt_plan                   -0.000579
-dti                           0.004429
-installment                   0.004753
+dti                           0.004429 (continuous)
+installment                   0.004753 (continuous)
 addr_state                    0.011226
 earliest_cr_line              0.011874
 term                          0.031378
@@ -42,9 +42,9 @@ inq_last_6mths                0.074407
 grade                         0.123656
 sub_grade                     0.126028
 total_rec_late_fee            0.140760
-int_rate                      0.155037
-collection_recovery_fee       0.330764
-recoveries                    0.475738
+int_rate                      0.155037 (continous)
+collection_recovery_fee       0.330764 (continous)
+recoveries                    0.475738 (continuous)
 default_ind                   1.000000
 policy_code                        NaN
 Name: default_ind, dtype: float64
